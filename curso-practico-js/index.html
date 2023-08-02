@@ -6,12 +6,11 @@
     <title>Manipulación del DOM básica - Curso práctico de Javascript</title>
 </head>
 <body>
-    <h1 class="verde">Manipulación del DOM básica</h1>
-    <p>Esto es un parrafo</p>
-    <p class="parrafito">Esto es un parrafo con Clase</p>
-    <p id="pid">Esto es un parrafo con ID</p>
+    <h1>Manipulación del DOM básica</h1>
 
-    <input placeholder="Escribe algo aqui">
+    <input id="calculo1" placeholder="Escribe algo aqui"/>
+    <input onchange="console.log('Cambio el input')" id="calculo2" placeholder="Escribe algo aqui"/>
+    <button id="btnCalcular" onclick="console.log('Click del boton')">Calcular</button>
     <script src="script.js"></script>
 </body>
 </html>

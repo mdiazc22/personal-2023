@@ -13,3 +13,17 @@ console.log({
     pid,
     input,
 });
+
+h1.innerHTML = 'Hola mundo desde JS';
+h1.innerText = 'Hola mundo desde JS';
+//console.log(h1.getAttribute('class'));
+//h1.setAttribute('class', 'rojo');
+h1.classList.add('rojo');
+h1.classList.remove('verde');
+//h1.classList.toggle('verde');
+//h1.classList.contains('verde');
+input.value = 'Valor por defecto, desde JS';
+const img = document.createElement('img');
+img.setAttribute('src', 'https://picsum.photos/200/300');
+console.log(img);
+pid.append(img);

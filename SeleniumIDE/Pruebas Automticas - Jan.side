@@ -1,0 +1,158 @@
+{
+  "id": "9a632aa1-6776-4bde-9567-2186da60e73a",
+  "version": "2.0",
+  "name": "Pruebas Automáticas - Jan",
+  "url": "https://www.homecenter.com.co/homecenter-co/",
+  "tests": [{
+    "id": "842cc296-2251-4e15-aafc-27620f0d610c",
+    "name": "Prueba - Carrito de compras SIN LOGIN",
+    "commands": [{
+      "id": "2c48c141-91f6-439c-9dab-c42e1831fa7f",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.homecenter.com.co/homecenter-co/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "434c3f93-074b-49e0-b944-1d03f0cba7f7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cd9cb2a4-80c4-46eb-b9d6-70e3f3e1f1c1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#main-IconsAndInformation-7b55b15e-a138-42a9-bc43-0948793c2b08-item-0 > .IconAndInformationItem-module_iai-item-body__BR2Uk",
+      "targets": [
+        ["css=#main-IconsAndInformation-7b55b15e-a138-42a9-bc43-0948793c2b08-item-0 > .IconAndInformationItem-module_iai-item-body__BR2Uk", "css:finder"],
+        ["xpath=//a[@id='main-IconsAndInformation-7b55b15e-a138-42a9-bc43-0948793c2b08-item-0']/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/div/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e412d5d-9fec-45df-ae99-53eb65d5db32",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#main-IconsAndInformation-7b55b15e-a138-42a9-bc43-0948793c2b08-item-0 > .IconAndInformationItem-module_iai-item-body__BR2Uk",
+      "targets": [
+        ["css=#main-IconsAndInformation-7b55b15e-a138-42a9-bc43-0948793c2b08-item-0 > .IconAndInformationItem-module_iai-item-body__BR2Uk", "css:finder"],
+        ["xpath=//a[@id='main-IconsAndInformation-7b55b15e-a138-42a9-bc43-0948793c2b08-item-0']/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/div/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee346aa9-9c0e-497b-922b-0ac641edf93f",
+      "comment": "",
+      "command": "click",
+      "target": "css=#main-IconsAndInformation-7b55b15e-a138-42a9-bc43-0948793c2b08-item-0 .IconAndInformationItem-module_item-icon-title__-u778",
+      "targets": [
+        ["css=#main-IconsAndInformation-7b55b15e-a138-42a9-bc43-0948793c2b08-item-0 .IconAndInformationItem-module_item-icon-title__-u778", "css:finder"],
+        ["xpath=//a[@id='main-IconsAndInformation-7b55b15e-a138-42a9-bc43-0948793c2b08-item-0']/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//a/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "687d1966-5f46-4388-b8df-09c6e782ba6a",
+      "comment": "",
+      "command": "click",
+      "target": "css=div > #\\38 70700",
+      "targets": [
+        ["css=div > #\\38 70700", "css:finder"],
+        ["xpath=//img[@alt='Waflera Redonda 1 Puesto RCE-WAFFLE100N Negro']", "xpath:img"],
+        ["xpath=//img[@id='870700']", "xpath:attributes"],
+        ["xpath=//a[@id='testId-Link-img-pdp-link']/div[2]/div/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "73578648-91de-4611-8efc-be321ff079c5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#testId-btn-538400 .value",
+      "targets": [
+        ["css=#testId-btn-538400 .value", "css:finder"],
+        ["xpath=//button[@id='testId-btn-538400']/div/div[2]", "xpath:idRelative"],
+        ["xpath=//button/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "51cc883a-8ac8-409d-b129-c5f92c415a2d",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#testId-btn-538400 .value",
+      "targets": [
+        ["css=#testId-btn-538400 .value", "css:finder"],
+        ["xpath=//button[@id='testId-btn-538400']/div/div[2]", "xpath:idRelative"],
+        ["xpath=//button/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab14634b-9f40-4bc5-a464-6532e843729a",
+      "comment": "",
+      "command": "click",
+      "target": "id=testId-btn-add-to-cart",
+      "targets": [
+        ["id=testId-btn-add-to-cart", "id"],
+        ["css=.jsx-3966858571 > #testId-btn-add-to-cart", "css:finder"],
+        ["xpath=//button[@id='testId-btn-add-to-cart']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/div[4]/div[2]/div/div[4]/div/div[2]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Agregar al carro')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9060006e-178e-4aac-83b6-ed4d22aa5e4a",
+      "comment": "",
+      "command": "click",
+      "target": "id=testId-btn-goto-cart-button",
+      "targets": [
+        ["id=testId-btn-goto-cart-button", "id"],
+        ["css=#testId-btn-goto-cart-button", "css:finder"],
+        ["xpath=//button[@id='testId-btn-goto-cart-button']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div[2]/div/div/div[2]/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Ir al carro de compras')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e1f089e1-a271-4c70-8fc6-f8f14f973303",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=testID-timelineItem-step-1-inprogress",
+      "targets": [
+        ["id=testID-timelineItem-step-1-inprogress", "id"],
+        ["css=#testID-timelineItem-step-1-inprogress", "css:finder"],
+        ["xpath=//li[@id='testID-timelineItem-step-1-inprogress']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/div/main/div/div/div/div/ol/li", "xpath:idRelative"],
+        ["xpath=//ol/li", "xpath:position"]
+      ],
+      "value": "Carro"
+    }, {
+      "id": "35d5e4f5-5f1a-4c1f-a224-0b43facb096b",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=870700",
+      "targets": [
+        ["id=870700", "id"],
+        ["css=#\\38 70700", "css:finder"],
+        ["xpath=//img[contains(@src,'https://homecenterco.scene7.com/is/image/SodimacCO/870700?fmt=jpg&fit=constrain,1&wid=125&hei=125')]", "xpath:img"],
+        ["xpath=//img[@id='870700']", "xpath:attributes"],
+        ["xpath=//div[@id='testId-cartItem-d1d9c310-c63a-40c0-981a-d82cdbf0101f-image']/img", "xpath:idRelative"],
+        ["xpath=//a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "14d21439-f74b-44be-9d77-7f0c4d1db086",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.homecenter.com.co/homecenter-co/"],
+  "plugins": []
+}
